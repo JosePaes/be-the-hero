@@ -1,6 +1,5 @@
 const connection = require('../database/connection');
 
-
 module.exports = {
 
     async index(request, response){
@@ -60,7 +59,4 @@ module.exports = {
 
         return response.status(204).send();
     }
-
-
-
 };
